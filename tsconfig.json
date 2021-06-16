@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowJs": true,
     "moduleResolution": "node",
     "target": "es5",
     "module":"es2015",
@@ -13,17 +14,12 @@
     "declarationDir": "dist/types",
     "outDir": "dist/lib",
     "typeRoots": [
-      "node_modules/@types",
-      "./types"
+//      "node_modules/@types",
     ],
     "noImplicitAny": false,
     "skipLibCheck": true
   },
   "include": [
-    "src/**/*",
-    "index.d.ts"
+    "src",
   ],
-  "exclude": [
-    "node_modules",
-  ]
 }

@@ -1,3 +1,2 @@
-export default class DummyClass {
-
-}
+import BetterStorage from "./storage";
+export default BetterStorage
