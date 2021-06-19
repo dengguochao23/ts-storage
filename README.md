@@ -8,7 +8,7 @@
 npm install ts-better-storage -D
 ````
 
-##Usage
+## Usage
 通过import方式来调用插件,实例化后方可使用
 
 ```javascript
