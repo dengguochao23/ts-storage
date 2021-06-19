@@ -1,10 +1,8 @@
 # ts-storage
-<hr>
 
 使用 TypeScript 来对原生的window.localstorage 进一步的封装，以便更好的使用
 
 ## Install
-<hr>
 
 ````
 npm install ts-better-storage -D
