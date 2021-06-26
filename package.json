@@ -1,6 +1,6 @@
 {
   "name": "ts-better-storage",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "keywords": [],
   "main": "dist/storage.umd.js",

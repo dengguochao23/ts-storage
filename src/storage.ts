@@ -28,7 +28,7 @@ class BetterStorage {
     this.storage.setItem(_key, _val)
   }
   // 移除某项
-  remove(key: string): void {
+  remove(key?: string): void {
     let _key = key ? key : this.key // 优先使用自己存入的key值
     this.storage.removeItem(_key)
   }
@@ -38,9 +38,6 @@ class BetterStorage {
   }
   // 获取所有
   getAll(): object {
-    if (this.storage.length === 0) {
-      return {}
-    }
     let ret: any = {}
     Object.keys(this.storage).forEach((key:string) => {
       ret[key] = this.storage[key]
