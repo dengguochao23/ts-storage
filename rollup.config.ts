@@ -7,10 +7,10 @@ import json from 'rollup-plugin-json'
 
 const pkg = require('./package.json')
 
-const libraryName = 'storage'
+const libraryName = 'storage' // package.json 的名字保持一致
 
 export default {
-  input: `src/index.ts`,
+  input: `src/index.ts`,  // 入口文件
   output: [
     { file: pkg.main, name: camelCase(libraryName), format: 'umd', sourcemap: true },
     { file: pkg.module, format: 'es', sourcemap: true },
