@@ -1,4 +1,4 @@
-# ts-storage
+# ts-better-storage
 
 使用 TypeScript 来对原生的window.localstorage 进一步的封装，以便更好的使用
 

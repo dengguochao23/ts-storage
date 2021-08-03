@@ -1,10 +1,10 @@
 {
   "name": "ts-better-storage",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "keywords": [],
-  "main": "dist/storage.umd.js",
-  "module": "dist/storage.es5.js",
+  "main": "dist/ts-better-storage.umd.js",
+  "module": "dist/ts-better-storage.es5.js",
   "typings": "dist/types/index.d.ts",
   "files": [
     "dist"

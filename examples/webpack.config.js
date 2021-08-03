@@ -1,13 +1,8 @@
-const webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const path = require('path')
 const devConfig = {
     mode: "development",
     entry: {
       app: './examples/app.ts',
-    },
-    output: {
-      path: path.resolve(__dirname, './dist'),
     },
     devtool: "eval-cheap-module-source-map",
     plugins: [
